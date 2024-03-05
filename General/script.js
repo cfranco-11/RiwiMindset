@@ -55,12 +55,12 @@ function validateFormLogin(){
     if(cedula == 1 && password == 1){
         setTimeout(function() {
             // Cambia la URL a la que quieres redirigirte
-            window.location.href = "indexTeachersHome.html"
+            window.location.href = "/indexTeachersHome.html"
           }, 100); // 10000 milisegundos = 10 segundos
         }else if(cedula == 2 && password == 2){
             setTimeout(function() {
                 // Cambia la URL a la que quieres redirigirte
-                window.location.href = "indexHomeEstudents.html"
+                window.location.href = "/indexHomeEstudents.html"
               }, 100); // 10000 milisegundos = 10 segundos
             }
         
